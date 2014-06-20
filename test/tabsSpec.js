@@ -27,7 +27,7 @@ describe('tabs', function() {
   }));
 
 
-  it('should create clickable titles', inject(function($compile, $rootScope) {
+  it('should create clickable titles', inject(function() {
     var titles = elm.find('ul.nav-tabs li a');
 
     expect(titles.length).toBe(2);
